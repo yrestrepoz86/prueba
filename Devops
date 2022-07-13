@@ -1,0 +1,48 @@
+Pipeline: Paso automatizada de la aplicación o codigo (Jenkis, Code). empaqueta y lo despliga
+
+Infraestructura: Todo lo necesario para que tú aplicación sea desplegada. (Archivos de configuración json)
+
+Dockerización: Infraestructura de servicios, escribir en archivos de docker para que nueva aplicación pueda correr en archivos de docker.
+
+CAMS
+Cultura: Suma de los habitos como equipo. (Fallar con un sistema de recuperación)
+Automatización: No se debe automatizar todo.
+Medición: Tener metricas (Release por mes, recursos de hardware, hay metricas que no aportan (Metricas de vanidad))
+Sharing: Colaboración de la información.
+
+Continuos integration:
+Agregar componentes, integrar herramientas, Despliegues.
+Integración, , testing, compilación y despliegue.
+
+
+Ciclo de vida del software.
+Plan (Itos)
+Codigo (Plasmar ideas en codigos)
+Build (Integración del codigo y compilación (incorporar el codigo))
+Test: Pruebas de los paquetes
+Release: Mover el software, guardar
+deploy: Se tomar el artefacto y se despliega en un ambiente, conjunto de configuraciones y hardware.
+Operate: Montar todo el hardware, monitorear y aprovicionar.
+monitor: Seguimiento al comportamiento de la aplicación. (Impacto de las caracteristicas implementadas). Como es la operación de las caracterisiticas nuevas y estas como afectan.
+
+
+Herramientas Control de versiones:
+GIT: Control de versiones.
+	Repositorio: Espacio, se crea un nueva versión
+	Check-in / Commit: Es guardar los cambios que se han realizado en un momento indicado.
+	Brach: Copia de una versión en el tiempo.
+	Git flow: Forma de trabajar con git (Metodologia).
+	
+Fase de pruebas: Donde se ejecutan pruebas, los cambios no afectén lo preestablecidos.
+	Unit Test: Realizan a cada componente (Clases, Propidades y metodos).
+	Integration Test:
+
+
+
+
+
+
+AWS-Segurygroups
+
+
+

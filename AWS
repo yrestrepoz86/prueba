@@ -1,0 +1,58 @@
+AWS
+
+VPC (Virtual Private cloud)
+COnfiguro un espacio virtual (Red virtual, para desplegar instancias)
+
+Route53 (Servicios de DNS)
+
+Direct Connect (Conexión esclusivo entre red local y aws)
+
+EC2 (Elastic computer): Maquina virtual
+
+EC2 Container Service (Administrador contenedores y server EC2)
+
+Elastic Beanstalk: (Elastic Beanstalk)
+
+Lambda: (Servicios a nivel de codigo, integración de servicios)
+
+**Almacenamiento
+S3 -> Para guardar información (Guardar archivos)
+Cloud front -> Servicio entrega de contenidos
+Glacier -> Servicio parecido a S3, para data historica
+EFS -> Almacenamiento para guardar sistemas operativos (Pendrive)
+Snowball -> Transferencia de Datos, usando un equipo especial.
+StorageGateway -> Almacenamiento hibrida, local + nube
+
+**Bases de datos
+RDS -> Mysql, postgres, oracle, sqlserver (sql), aurora
+DynamoDB -> Nosql, datos se puede consultar por endpoint
+Elasticache -> Base de datos en memoria
+DMS -> Migración de bases de datos
+RedShift -> waterhouse (Bigdata)
+
+Modelos de servicios: 
+Onpremise: Todo local
+Iaas: Alquilo el hardware (Responsable con el servicio)
+Pass: plataforma como servicio
+Saas: COnsumo la aplicación como servicio
+
+Modelos de pago: Bajo demanda, subasta, reservación, compromiso de consumo.
+
+IAM: Servicio de identidad de AWS
+Dar acceso a los recursos (usuarios, grupos y roles) fromato json
+MFA - multifactor autenticator
+
+EBS -> VOlumen de red, se puede mover. se puede mover entre instancias. Dentro de la misma zona
+	Tipos:
+		GP2
+		IOI
+		STI
+		SCI
+
+Bastión: Conectarse a una instancia por medio de otra computadora.
+
+AWS Lambda: Es un servicio que permite ejecutar código sin aprovisionar ni administrarservidores (Por medio de funciones).
+
+
+
+https://sites.google.com/xpertgroup.co/intranet
