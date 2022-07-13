@@ -1,3 +1,5 @@
+PruebaGIT
+
 Pipeline: Paso automatizada de la aplicación o codigo (Jenkis, Code). empaqueta y lo despliga
 
 Infraestructura: Todo lo necesario para que tú aplicación sea desplegada. (Archivos de configuración json)
